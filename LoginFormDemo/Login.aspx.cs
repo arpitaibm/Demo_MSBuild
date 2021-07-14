@@ -16,7 +16,7 @@ namespace LoginFormDemo
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            if(textuser.Text=="arpita" && textpass.Text=="admin")
+            if(textuser.Text=="testuser" && textpass.Text=="testpass")
             {
                 Session["name"] = textuser.Text;
                 Response.Redirect("About.aspx");
